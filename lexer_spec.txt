@@ -1,0 +1,22 @@
+<Keyword>::=static|extern|struct|sizeof|enum|case|default|if|else|
+            switch|while|do|for|goto|continue|break|return
+<Type>::=void|char|int|float|long|unsigned
+<Punctuation>::= ,|*|(|)|?|:|[|]|.|->|++|--|
+<LogOp>::=|| |&&
+<EquOp>::='=='|'!='
+<RelOp>::='<'|'>'|'<='|'>='
+<AddOp>::='+'|'-'
+<MulOp>::='*'|'/'|'%'
+<UniOp>::='+'|'-'|'!'|'*'|'&'|'~'
+<AssOp>::=|*=|/=|%=|+=|-=
+<Name>::=[<Letter>|'_'][<Letter>|<Digit>|'_']*
+<Integer>::=[0-9][0-9]*
+<Long>::=[0-9][0-9]*L
+<Float>::=[0-9][0-9]*'.'[0-9][0-9]*
+<Boolean>::=true|false
+<Character>::="\"<Char>"\"
+<String>::="" [ <Char>]* ""
+<Chars>::=<Char>|<Chars><Char>
+<Char>::=--any symbol from ASCII
+<Letter>::=A|B|C|...X|Y|Z|a|b|c...|x|y|z
+<Digit>::=0|1|2|3|4|5|6|7|8|9|
